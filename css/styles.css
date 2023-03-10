@@ -3,6 +3,7 @@
     --main-body-color: #ffffff;
     --main-text-color: #434455;
     --main-title-color: #2e2f42;
+    --portfolio-botton-color: #4d5ae5;
   }
 
 body {
@@ -19,6 +20,7 @@ body {
 }
 
 .header-link{
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -210,20 +212,28 @@ color: #E7E9FC;
 }
 
 .btnn-one{
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
-
 color: #FFFFFF;
-    background: #404BBF;
+background: #404BBF;
+cursor: pointer
+
 }
+
+.btnn-one:hover{
+    background-color: #404bbf;
+}
+
 .link-list-zago{
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--main-title-color);
+
 }
 .link-list-par{
 font-size: 16px;
